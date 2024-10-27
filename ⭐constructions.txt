@@ -1,0 +1,17 @@
+- redux 
+- routers
+- icons
+npm i @reduxjs/toolkit react-redux react-router-dom react-icons
+
+- tailwind with vite
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+- inside the content object in tailwind.config.js add 
+"./index.html",
+"./src/**/*.{js,ts,jsx,tsx}"
+
+now add the folowing alias to ur index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
