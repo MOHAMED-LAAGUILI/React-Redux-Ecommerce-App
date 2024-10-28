@@ -15,3 +15,21 @@ now add the folowing alias to ur index.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+- React toast notifications
+npm install react-toastify
+
+
+- react modal
+npm i  react-modal
+
+- spiner loading 
+npm install react-loader-spinner
+
+
+- AI command
+code full updated enhanced refined app.js format that well structutured and and improved flexibility and quick access 
+
+-Ract dark mode Toggle btn
+npm install react-dark-mode-toggle
+

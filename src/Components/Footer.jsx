@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope } from "reac
 
 export default function Footer() {
     return (
-        <footer className="bg-white text-gray-800 mt-20 py-10 drop-shadow-2xl">
+        <footer className="bg-white text-gray-800 pt-20 py-10 drop-shadow-2xl">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* About Us Section */}
@@ -18,10 +18,12 @@ export default function Footer() {
                     <div>
                         <h2 className="text-xl font-bold mb-2 text-red-600">Quick Links</h2>
                         <ul className="space-y-1">
-                            <li><Link to="/" className="hover:text-red-600 transition duration-300">Home</Link></li>
-                            <li><Link to="/shop" className="hover:text-red-600 transition duration-300">Shop</Link></li>
-                            <li><Link to="/about" className="hover:text-red-600 transition duration-300">About Us</Link></li>
-                            <li><Link to="/contact" className="hover:text-red-600 transition duration-300">Contact</Link></li>
+                            <li><Link to="/" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Home</Link></li>
+                            <li><Link to="/shop" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Shop</Link></li>
+                            <li><Link to="/info" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">About Us</Link></li>
+                            <li><Link to="/contact" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Contact</Link></li>
+                            <li><Link to="/terms" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">TOS</Link></li>
+                            <li><Link to="/privacy-policy" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Policy</Link></li>
                         </ul>
                     </div>
 
@@ -29,10 +31,10 @@ export default function Footer() {
                     <div>
                         <h2 className="text-xl font-bold mb-2 text-red-600">Customer Service</h2>
                         <ul className="space-y-1">
-                            <li><Link to="/help" className="hover:text-red-600 transition duration-300">Help Center</Link></li>
-                            <li><Link to="/returns" className="hover:text-red-600 transition duration-300">Returns</Link></li>
-                            <li><Link to="/shipping" className="hover:text-red-600 transition duration-300">Shipping Info</Link></li>
-                            <li><Link to="/faq" className="hover:text-red-600 transition duration-300">FAQs</Link></li>
+                            <li><Link to="/help" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Help Center</Link></li>
+                            <li><Link to="/returns" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Returns</Link></li>
+                            <li><Link to="/shipping" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">Shipping Info</Link></li>
+                            <li><Link to="/faq" className="hover:text-red-600 hover:underline hover:font-bold transition duration-75">FAQs</Link></li>
                         </ul>
                     </div>
 

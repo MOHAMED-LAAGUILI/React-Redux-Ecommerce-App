@@ -10,12 +10,13 @@ export default function NotFound404 () {
           <div className="w-full flex justify-center mb-8">
             <div className="max-w-xs w-full">
               <DotLottieReact
-                src="/src/assets/images/404.lottie"
+                src="/src/assets/lotties/404.lottie"
                 loop
                 autoplay
                 
               />
             </div>
+            
           </div>
 
           {/* 404 Heading */}
