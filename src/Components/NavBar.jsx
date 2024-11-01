@@ -17,6 +17,8 @@ import { ToastContainer } from "react-toastify";
 import Modal from "./AuthModal"; 
 import AuthPage from "../Pages/Auth";
 import { setSearchTerm } from "../Redux-Toolkit/ProductsSlice";
+import Logo from "../assets/images/Logo_E-shop.png"
+
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,9 +46,9 @@ const redirect = useNavigate()
           className="text-red-600 text-2xl font-bold rounded-full shadow-inner border-x-4"
         >
           <img
-            src="./assets/images/Logo_E-shop.png"
+            src={Logo}
             width="80"
-            alt="E-Shop Logo"
+            alt="E-Shop-Logo"
           />
         </Link>
 

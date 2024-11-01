@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import { FaShop } from "react-icons/fa6";
+import HeroImage from "../assets/images/e-commerce.jpg";
+
 
 function HeroCardImage() {
     return (
         <div className="bg-red-100 rounded-lg shadow-lg mb-8">
         <div className="relative">
           <img
-            src={"@/assets/images/e-commerce.jpg"}
+            src={HeroImage}
             alt={"Shopping bag with shirt and smartphone"}
             className="w-full h-auto rounded-lg"
           />
