@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FaCartPlus, FaHeart } from 'react-icons/fa';
-
+import NoFoundProductImage from "../assets/images/no-products-found.png"
 const SearchResultsPage = () => {
   const filteredProducts = useSelector((state) => state.products.filteredData); // Get filtered products from the store
   const searchTerm = useSelector((state) => state.products.searchTerm); // Get the current search term from the store
@@ -49,7 +49,7 @@ const SearchResultsPage = () => {
         ) : (
           <div className="flex flex-col items-center">
             <img
-              src="/src/assets/images/no-products-found.png"
+              src={NoFoundProductImage}
               alt="No matching product found"
               className="w-48 h-auto mx-auto"
             />
