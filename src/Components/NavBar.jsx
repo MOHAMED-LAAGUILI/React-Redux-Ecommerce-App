@@ -44,7 +44,7 @@ const redirect = useNavigate()
           className="text-red-600 text-2xl font-bold rounded-full shadow-inner border-x-4"
         >
           <img
-            src="/src/assets/images/Logo_E-shop.png"
+            src="./assets/images/Logo_E-shop.png"
             width="80"
             alt="E-Shop Logo"
           />
