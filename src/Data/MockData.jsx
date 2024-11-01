@@ -1,19 +1,16 @@
 // Services Icons
 import {  FaTruck, FaHeadset, FaLock, FaTag, FaMoneyBillWave } from "react-icons/fa6";
 
-// Special Categories images
-import baby from "/src/assets/images/baby.jpg"
-import man from "/src/assets/images/man.jpg"
-import woman from "/src/assets/images/woman.jpg"
-import kids from "/src/assets/images/kids.jpg"
 
-// Products images
-import smartphone from "/src/assets/images/smartphone.jpg"
-import smartwatch from "/src/assets/images/smartwatch.jpg"
-import sweater_and_sweatshirt from "/src/assets/images/sweater-and-sweatshirt.jpg"
-import Heater from "/src/assets/images/Heater.jpg"
-import headset from "/src/assets/images/headset.jpg"
-
+import baby from "../assets/images/baby.jpg";
+import man from "../assets/images/man.jpg";
+import woman from "../assets/images/woman.jpg";
+import kids from "../assets/images/kids.jpg";
+import smartphone from "../assets/images/smartphone.jpg";
+import smartwatch from "../assets/images/smartwatch.jpg";
+import sweater_and_sweatshirt from "../assets/images/sweater-and-sweatshirt.jpg";
+import Heater from "../assets/images/Heater.jpg";
+import headset from "../assets/images/headset.jpg";
 
 
 
