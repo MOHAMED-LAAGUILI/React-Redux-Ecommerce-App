@@ -6,7 +6,7 @@ function HeroCardImage() {
         <div className="bg-red-100 rounded-lg shadow-lg mb-8">
         <div className="relative">
           <img
-            src={"/src/assets/images/e-commerce.jpg"}
+            src={"@/assets/images/e-commerce.jpg"}
             alt={"Shopping bag with shirt and smartphone"}
             className="w-full h-auto rounded-lg"
           />
